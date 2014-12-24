@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "note title: " notetitle
+read -p "note content: " notecontent
+geeknote create --title "$notetitle" --content "$notecontent"
