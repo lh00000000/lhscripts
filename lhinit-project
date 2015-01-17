@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p "project name: " projectname
+read -p "project description: " projectdesc
+mkdir $projectname
+echo "$projectdesc" >> ./$projectname/readme.md
