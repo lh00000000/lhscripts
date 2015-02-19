@@ -1,0 +1,5 @@
+#!/bin/bash
+sed -i 's/testApp/ofApp/g' *.cpp 
+sed -i 's/testApp/ofApp/g' *.h
+mv testApp.cpp ofApp.cpp
+mv testApp.h ofApp.h

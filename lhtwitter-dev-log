@@ -1,0 +1,11 @@
+#!/bin/bash
+read -p "tweet: " tweetcontent
+
+n=0;
+until [ $n -ge 5 ]
+do
+  twidge update "$tweetcontent" && break
+  n=$[$n+1]
+  sleep 5
+done
+

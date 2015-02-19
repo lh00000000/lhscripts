@@ -2,4 +2,4 @@
 read -p "link url: " linkurl
 read -p "link title: " linktitle
 read -p "link tags: " linktags
-pinboard add --url $linkurl --title "$linktitle" --tags "[$linktags]"
+pinboard add --url $linkurl --title "$linktitle" --tags "$linktags"
